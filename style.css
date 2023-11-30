@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: fixed;
+    padding: 2rem
+}
+
+nav a {
+    color: white;
+}
+
+.feature {
+    height: 100vh;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+}
+
+.page1 {
+    background-image: url("./images/galaxy_resized.jpg");
+}
+
+.page2 {
+    background-image: url("./images/landscape_resized.jpg");
+}
+
+.page3 {
+    background-image: url("./images/eclipse_resized.jpg");
+}
+
+.readmore {
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 6rem 1rem 2rem;
+    line-height: 0;
+}
+
+footer {
+    color: grey;
+    text-align: center;
+    padding: 30px;
+}
