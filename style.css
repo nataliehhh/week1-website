@@ -32,6 +32,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
     position: fixed;
     padding: 0;
     column-gap: 2rem;
@@ -66,10 +67,9 @@ nav a:hover {
 #playbtn {
     background-color: transparent;
     border: 0;
-}
-
-.playicon {
     max-width: 2.5rem;
+    max-height: 2.5rem;
+    align-items: center;
 }
 
 .feature {
