@@ -63,6 +63,15 @@ nav a:hover {
     letter-spacing: 0.2rem;
 }
 
+#playbtn {
+    background-color: transparent;
+    border: 0;
+}
+
+.playicon {
+    max-width: 2.5rem;
+}
+
 .feature {
     height: 100vh;
     background-size: cover;
